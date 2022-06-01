@@ -99,7 +99,6 @@
         rel="stylesheet"
         />
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
     </div>
 
     <main style="display:none;" id="contents">
@@ -111,8 +110,7 @@
                 src="https://img.icons8.com/bubbles/100/ffffff/year-of-dragon.png"
               />
             </div>
-            <h1 class="text-2xl text-gray-200">Raihan</h1>
-            <h1 class="text-2xl text-red-500">EXE99</h1>
+            <Span class="text-2xl text-gray-200">R-Ventures<span class="text-2xl text-red-500">.Solutions</span></Span>
         </div>
         <!--  -->
 
@@ -122,7 +120,7 @@
             <div class="flex justify-center">
                 <sl-card class="card-overview">
                     <div class="flex justify-center items-center">
-                        <sl-avatar image="https://img.icons8.com/bubbles/100/ffffff/kawaii-bread-1.png" style="--size: 100px;"></sl-avatar>
+                        <sl-avatar image="./libs/RaihanEXE99.jpg" style="--size: 100px;"></sl-avatar>
                         <div class="text-sm flex justify-center">
                             <div>
                                 <h1 class=" font-semibold text-center">Raihan Chowdhury</h1>
@@ -131,28 +129,32 @@
                         </div>
                     </div>
                     <div class="flex justify-start items-center">
-                        <sl-icon name="emoji-wink-fill"></sl-icon>
+                        <!-- <sl-icon name="emoji-wink-fill"></sl-icon> -->
+                        ℹ️
                         <h1>Bio</h1>
                     </div>
                     <h1 class="ml-3">Build First Optimize Later</h1>
-                    <small style="color: tomato;" class="ml-3">Status :</small
-                  ><small style="margin-left: -2px;">Busy 🔥</small><br />
+                    <!-- <small style="color: tomato;" class="ml-3">Status :</small
+                  ><small style="margin-left: -2px;">Busy👨‍💻</small><br />
                     <small style="color: #3b82f6;" class="ml-3">Mood :</small
-                  ><small style="margin-left: -2px;">Regret😪</small>
+                  ><small style="margin-left: -2px;">Regret😪</small> -->
                     <!--  -->
                     <sl-drawer label="Connect" id="connect" placement="bottom" class="drawer-placement-bottom">
                         <a href="https://facebook.com/RaihanEXE99">
-                            <sl-icon-button name="facebook" style="font-size: 2rem;"></sl-icon-button>
+                            <sl-avatar image="./libs/icons/facebook.png" style="--size: 48px;"></sl-avatar>
+                            <!-- <sl-icon-button name="facebook" src="./libs/icons/facebook.png" style="font-size: 2rem;"></sl-icon-button> -->
                         </a>
                         <a href="https://github.com/RaihanEXE99">
-                            <sl-icon-button name="github" style="font-size: 2rem;"></sl-icon-button>
+                            <sl-avatar image="./libs/icons/github.png" style="--size: 48px;"></sl-avatar>
+                            <!-- <sl-icon-button name="github" style="font-size: 2rem;"></sl-icon-button> -->
                         </a>
             
                         <sl-dialog label="Discord" id="discord-dia" class="dialog-overview">
                             Username : Raihan<br /> Code : #4424
                             <sl-button slot="footer" type="warning" onclick="fcloseButtonDIS()">Close</sl-button>
                         </sl-dialog>
-                        <sl-icon-button id="discord-btn" onclick="fopenDIS()" name="discord" style="font-size: 2rem;"></sl-icon-button>
+                        <sl-avatar id="discord-btn" onclick="fopenDIS()" image="./libs/icons/discord.png" style="--size: 48px;"></sl-avatar>
+                        <!-- <sl-icon-button id="discord-btn" onclick="fopenDIS()" name="discord" style="font-size: 2rem;"></sl-icon-button> -->
             
                         <sl-button slot="footer" type="primary" onclick="fcloseButtonCON()">Close</sl-button>
                     </sl-drawer>
@@ -259,16 +261,16 @@
                                 <sl-details summary="Experience">
                                     <div class="flex justify-center">
                                         <div>
-                                            <span class="text-blue-500">React : 1.5Yr +</span><br/>
+                                            <span class="text-blue-500">React : 2Yr +</span><br/>
                                             <span class="text-green-500 m-4">Vue : 1Yr +</span>
                                         </div>
                                     </div>
                                 </sl-details>
-                                <sl-details summary="My Projects">
+                                <!-- <sl-details summary="My Projects">
                                     <sl-button href="https://github.com/./facerecognition" target="_blank">Facerecognition🥶 React</sl-button>
                                     <sl-button href="https://github.com/./myrobofriends" target="_blank">Robot Friends😸 React</sl-button>
                                     <sl-button href="https://github.com/./Marsteo" target="_blank">Marsteo 👾 Vue</sl-button>
-                                </sl-details>
+                                </sl-details> -->
                             </div>
                             <sl-button slot="footer " type="primary ">Close</sl-button>
                         </sl-drawer>
@@ -318,13 +320,13 @@
                                 <sl-details summary="Experience">
                                     <div class="flex justify-center">
                                         <div>
-                                            <span class="text-blue-500">Django : 1.5Yr +</span><br/>
-                                            <span class="text-green-500 m-4">Flask : 1.5Yr +</span><br/>
+                                            <span class="text-blue-500">Django : 3Yr +</span><br/>
+                                            <span class="text-green-500 m-4">Flask : 2Yr +</span><br/>
                                             <span class="text-yellow-500 m-4">Node : 1.5Yr +</span><br/>
                                         </div>
                                     </div>
                                 </sl-details>
-                                <sl-details summary="My Projects">
+                                <!-- <sl-details summary="My Projects">
                                     <sl-button href="https://github.com/./facerecognition" target="_blank">Binary-Bot-V2</sl-button>
                                     <div class="m-2">
                                         <h1 class="text-yellow-500">What is Binary-bot-OJ</h1>
@@ -332,7 +334,7 @@
                                             This is a web application that that will judge your code ,(like uri,codeforce etc) You can log in, sign up , you can see other user accounts, Submit Your code , and check if its right or not.
                                         </h1>
                                     </div>
-                                </sl-details>
+                                </sl-details> -->
                             </div>
                             <sl-button slot="footer " type="primary " onclick="fcloseBackEnd()">Close</sl-button>
                         </sl-drawer>
@@ -497,8 +499,8 @@
                                     <sl-badge type="danger" class="flex justify-center pt-2" pulse>C++</sl-badge>
                                 </div>
                                 <div>
-                                    <img src="https://img.icons8.com/color/48/000000/c-sharp-logo.png" />
-                                    <sl-badge type="warning" class="flex justify-center pt-2">C#</sl-badge>
+                                    <img src="https://img.icons8.com/color/48/000000/java.png" />
+                                    <sl-badge type="warning" class="flex justify-center pt-2">Java</sl-badge>
                                 </div>
                                 <div>
                                     <img src="https://img.icons8.com/color/48/000000/python.png" />
@@ -648,7 +650,7 @@
             
                                         <sl-tab slot="nav" panel="brainstation">Brainstation</sl-tab>
                                         <sl-tab slot="nav" panel="binraybeast">Team Binary Beast</sl-tab>
-                                        <sl-tab slot="nav" panel="golglass">GolGlass</sl-tab>
+                                        <!-- <sl-tab slot="nav" panel="golglass">GolGlass</sl-tab> -->
             
                                         <sl-tab-panel name="brainstation">
                                             <span class="text-green-500">
@@ -685,7 +687,7 @@
                                                 Present
                                             </small>
                                         </sl-tab-panel>
-                                        <sl-tab-panel name="golglass">
+                                        <!-- <sl-tab-panel name="golglass">
                                             <span class="text-green-500">
                                                 Position : <span class="text-yellow-500">CTO</span>
                                             </span><br/>
@@ -702,7 +704,7 @@
                                                 Present
                                             </small> <br/>
                                             <span class="text-yellow-500">(Business)</span>
-                                        </sl-tab-panel>
+                                        </sl-tab-panel> -->
             
                                     </sl-tab-group>
             
@@ -729,7 +731,6 @@
             
                                 <sl-dialog label="Email" id="dialogEmail" class="dialog-overview">
                                     <h1>Gmail - RaihanEXE99@gmail.com </h1>
-                                    <h1>Gmail - RaihanChowdhury.next@gmail.com</h1>
                                     <sl-button slot="footer" style="width:100%;" type="warning">Close</sl-button>
                                 </sl-dialog>
             
